@@ -12,12 +12,7 @@ function About() {
     return (
         <div name="about" className='bg-[#0a192f] w-full overflow-hidden'>
 
-            <div className='flex bg-black mt-24 h-[600px] md:h-screen justify-between'>
-                <div className='flex justify-center items-center mx-auto h-auto'>
-                    <h3 className='text-white mx-auto text-5xl sm:text-6xl md:text-7xl font-extrabold'>ABOUT US</h3>
-                </div>
-                <img src={aboutUsImg} alt="Image of about us page" loading='lazy' className='w-[1000px] hidden md:flex'/>
-            </div>
+            
 
             {/* Our Values  */}
             <div className='mt-36 '>

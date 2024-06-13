@@ -7,21 +7,25 @@ import Solution from './components/Solution';
 import About from './components/About';
 import Contact from './components/Contact';
 import Training from './components/Training';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
-  <div>
+    <div>
 
-    <Navbar />
-    <Home />
-    <Solution />
-    <Services />
-    <Training />
-    <About />
-    <Contact />
+      <Navbar />
+      <Home />
+      <Solution />
+      <Services />
+      <Training />
+      <About />
+      <Contact />
 
-  </div>
+
+    
+    </div>
   )
 }
 

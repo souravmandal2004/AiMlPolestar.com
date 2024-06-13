@@ -1,8 +1,12 @@
 import React from 'react';
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
+import {Link, useNavigate} from "react-router-dom"; 
+
 
 function Contact() {
+
+
     return (
         <div name='contact' className='bg-[#0a192f] w-full overflow-x-hidden h-screen'>
             <div className='max-w-[1600px] p-3 mx-auto mt-36 grid grid-cols-1 sm:grid-cols-2 gap-6'>
@@ -19,7 +23,10 @@ function Contact() {
                     <h3 className='text-2xl font-bold'>Email</h3>
                     <p className='font-semibold text-xl text-center'>contact@aimlpolestar.com</p>
                 </div>
-            </div>
+            </div> 
+
+            <Link to="/vaidya/privacy-policy">Click Here </Link>
+
 
         </div>
     );
