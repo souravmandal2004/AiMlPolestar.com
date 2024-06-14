@@ -24,8 +24,11 @@ function Contact() {
                     <p className='font-semibold text-xl text-center'>contact@aimlpolestar.com</p>
                 </div>
             </div> 
-
-            <Link to="/vaidya/privacy-policy">Click Here </Link>
+            
+            <div className='flex justify-center items-center mt-20 '>
+                <Link to="/vaidya/privacy-policy"><button className='p-3 rounded-full text-white bg-[#214392] hover:bg-[#0A192F] transition-all duration-300 text-lg
+                '>Privacy Policy</button></Link>
+            </div>
 
 
         </div>
